@@ -13,7 +13,8 @@ You can now run the individual scripts based on your requirements.
 Description: This microservice allows you to retrieve detailed information about a specific stock.
 
 def retrieve_stock_info(symbol: str) -> dict: """ Retrieves detailed information about a stock.
-```Args:
+```
+Args:
     symbol (str): The stock symbol (e.g., AAPL).
 
 Returns:
@@ -26,7 +27,8 @@ Returns:
 Description: This microservice enables you to place a buy order for a specific stock.
 
 def place_buy_order(symbol: str, qty: int) -> None: """ Places a buy order for a specific stock.
-```Args:
+```
+Args:
     symbol (str): The stock symbol (e.g., AAPL).
     qty (int): The quantity of shares to buy.
 
