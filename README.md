@@ -9,7 +9,7 @@ Replace the ALPACA_API_KEY and ALPACA_SECRET_KEY variables in the scripts with y
 You can now run the individual scripts based on your requirements.
 
 ## Microservices Overview and Function Signature:
-## *Retrieve Stock Information*
+### *Retrieve Stock Information*
 Description: This microservice allows you to retrieve detailed information about a specific stock.
 
 def retrieve_stock_info(symbol: str) -> dict: """ Retrieves detailed information about a stock.
@@ -22,7 +22,7 @@ Returns:
 ...
 ```
 
-## *Place Buy Order*
+### *Place Buy Order*
 Description: This microservice enables you to place a buy order for a specific stock.
 
 def place_buy_order(symbol: str, qty: int) -> None: """ Places a buy order for a specific stock.
@@ -36,7 +36,7 @@ Returns:
 ...
 ```
 
-## *Place Sell Order*
+### *Place Sell Order*
 Description: This microservice allows you to place a sell order for a specific stock.
 
 def place_sell_order(symbol: str, qty: int) -> None: """ Places a sell order for a specific stock.
@@ -51,7 +51,7 @@ Returns:
 ...
 ```
 
-## *Retrieve Order History*
+### *Retrieve Order History*
 Description: This microservice retrieves the order history for your account.
 
 def retrieve_and_display_orders() -> None: """ Retrieves and displays the order history for your account.
@@ -62,7 +62,7 @@ Returns:
 ...
 ```
 
-## *Add to Cart*
+### *Add to Cart*
 Description: This microservice allows you to add stocks to a cart for later processing.
 
 def add_to_cart(stock_symbol: str) -> None: """ Adds a stock to the cart.
@@ -76,7 +76,7 @@ Returns:
 ...
 ```
 
-## *View Cart*
+### *View Cart*
 Description: This microservice displays the contents of the cart.
 
 def view_cart() -> None: """ Displays the contents of the cart.
@@ -87,7 +87,7 @@ Returns:
 ...
 ```
 
-## *Buy Stocks*
+### *Buy Stocks*
 Description: This microservice allows you to buy the stocks in your cart.
 
 def buy_stocks() -> None: """ Places buy orders for the stocks in the cart.
